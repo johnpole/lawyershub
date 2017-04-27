@@ -5,10 +5,14 @@
   <groupId>com.lawyershub</groupId>
   <artifactId>lawyershub</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
   <name>lawyershub</name>
   <url>http://maven.apache.org</url>
+  
+  <modules>
+        <module>dao</module>
+  </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
